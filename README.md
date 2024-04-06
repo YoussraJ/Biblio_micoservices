@@ -35,7 +35,7 @@
 - Start MySQL server.
 - Create databases: `users` (for Users microservices) and `emprunt` (for Emprunts microservices).
 - Run Kafka depending on your OS:
-  - If you're using Windows, open two terminals in the Kafka directory:
+  - If you're using Windows, open two terminals in the windows folder in Kafka directory:
     - Terminal 1: `.\zookeeper-server-start.bat ..\..\config\zookeeper.properties`
     - Terminal 2: `./kafka-server-start.bat ..\..\config\server.properties`
   - That's it! You can execute all microservices.
